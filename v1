@@ -1,0 +1,8 @@
+total=0
+counter=0
+grade=input()
+while grade!="stop":
+	total=total+int(grade)
+	counter=counter+1
+	grade=input()
+print(total/counter)
